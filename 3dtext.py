@@ -6,6 +6,9 @@ src = ''
 right = ''
 left = ''
 out = ''
+#TODO add parameter for line length
+#TODO fix error on multiline 3d effect
+#TODO fix stdin
 
 if len(sys.argv) > 1:
     for arg in sys.argv[1:]:
@@ -15,7 +18,7 @@ else:
 	src = sys.stdin.readline()
 
 
-#TODO adjust length of the text
+#adjust length of the text to wrap around
 wrappedList = textwrap.wrap(src, max_len)
 lineCnt = max (len(x) for x in wrappedList)
 
@@ -38,11 +41,11 @@ right = right.replace('<', '')
 right = right.replace('>', ' ')
 
 
-#concat the individual lines line of 28 + 2 sides
+#concat the individual lines line of both sides
 lLines = left.split('\n')
 rLines = right.split('\n')
 
-#TODO adjust length on left side.
+#merge result of both sides.
 for i in range( len(lLines)):
 	out += '* ' + lLines[i][:lineCnt-1] + ' * ' + rLines[i][:lineCnt-1] +' *\n'
 
