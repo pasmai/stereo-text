@@ -30,18 +30,14 @@ It works by replacing the < on the left side with different number of spaces tha
 ```
 Es war einmal ein <Lattenzaun>,
 mit <Zwischenraum>, hindurchzuschaun.
- 
 Ein Architekt, der dieses sah,
 stand eines Abends ploetzlich da -
- 
 und nahm den <Zwischenraum heraus>
 und baute draus ein grosses Haus.
 Der <Zaun> indessen stand ganz <dumm>
 mit Latten <ohne was herum>,
- 
 ein Anblick graesslich und gemein.
 Drum zog ihn der Senat auch ein.
- 
 Der <Architekt jedoch entfloh>
 nach Afri - od - Ameriko.
 
