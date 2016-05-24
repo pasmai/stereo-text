@@ -6,7 +6,7 @@ All words in the input **marked as \<text> will be 3D.**
 **How to use:**
 
 * Start it over cmd or by executing the 3dtext.py and then it allows you to type in the text
-* pass the text as command line argument. (e.g. 3dtext.py "you can <enter> your text <here>" )
+* pass the text as command line argument. (e.g. 3dtext.py "you can \<enter> your text \<here>" )
 
 It works by replacing the < on the left side with different number of spaces than the version on the right.
 
